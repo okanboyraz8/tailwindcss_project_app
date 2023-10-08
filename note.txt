@@ -1,0 +1,11 @@
+npm init -y => package.json file
+
+npm install -D tailwindcss => creating tailwindcss
+
+npx tailwindcss init => creating tailwindcss
+
+content: ["./src/**/*.{html,js}"], => editing the tailwind.config.js file
+
+npx tailwindcss -i ./input.css -o ./public/css/styles.css --watch => watching the css file from input to output
+
+npm run watch => after the changing "test" to "watch" on package.json, run the project like this
